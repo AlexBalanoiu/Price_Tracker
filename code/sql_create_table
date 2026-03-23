@@ -1,7 +1,0 @@
-CREATE TABLE IF NOT EXISTS coin_prices (
-    id SERIAL PRIMARY KEY,
-    coin_name TEXT,
-    price_usd NUMERIC,
-    last_updated_at TIMESTAMP,
-    fetched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
