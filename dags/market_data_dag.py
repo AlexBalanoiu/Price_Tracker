@@ -4,7 +4,7 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from datetime import datetime, timedelta
 
-# Import your existing logic from the scripts folder
+# Import  existing logic from the scripts folder
 import sys
 sys.path.insert(0, '/opt/airflow')
 from scripts.extract_load import fetch_and_store
