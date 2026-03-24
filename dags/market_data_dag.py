@@ -5,7 +5,9 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 from datetime import datetime, timedelta
 
 # Import your existing logic from the scripts folder
-from scripts.extract_load import fetch_and_store 
+import sys
+sys.path.insert(0, '/opt/airflow')
+from scripts.extract_load import fetch_and_store
 
 default_args = {
     'owner': 'senior_data_eng',

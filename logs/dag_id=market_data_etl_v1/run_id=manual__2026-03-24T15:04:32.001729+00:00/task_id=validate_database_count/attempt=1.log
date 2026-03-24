@@ -1,0 +1,23 @@
+[2026-03-24T15:04:37.035+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509
+[2026-03-24T15:04:37.036+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count'
+[2026-03-24T15:04:37.105+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509
+[2026-03-24T15:04:37.107+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count'
+[2026-03-24T15:04:37.152+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: market_data_etl_v1.validate_database_count manual__2026-03-24T15:04:32.001729+00:00 [queued]>
+[2026-03-24T15:04:37.160+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: market_data_etl_v1.validate_database_count manual__2026-03-24T15:04:32.001729+00:00 [queued]>
+[2026-03-24T15:04:37.162+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-03-24T15:04:37.177+0000] {taskinstance.py:2191} INFO - Executing <Task(PostgresOperator): validate_database_count> on 2026-03-24 15:04:32.001729+00:00
+[2026-03-24T15:04:37.183+0000] {standard_task_runner.py:60} INFO - Started process 383 to run task
+[2026-03-24T15:04:37.186+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'market_data_etl_v1', 'validate_database_count', 'manual__2026-03-24T15:04:32.001729+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/market_data_dag.py', '--cfg-path', '/tmp/tmpk45wsjo7']
+[2026-03-24T15:04:37.189+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask validate_database_count
+[2026-03-24T15:04:37.242+0000] {logging_mixin.py:188} INFO - Changing /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509
+[2026-03-24T15:04:37.243+0000] {logging_mixin.py:188} INFO - Failed to change /opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=market_data_etl_v1/run_id=manual__2026-03-24T15:04:32.001729+00:00/task_id=validate_database_count'
+[2026-03-24T15:04:37.267+0000] {task_command.py:423} INFO - Running <TaskInstance: market_data_etl_v1.validate_database_count manual__2026-03-24T15:04:32.001729+00:00 [running]> on host 60eeea871c61
+[2026-03-24T15:04:37.359+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='senior_data_eng' AIRFLOW_CTX_DAG_ID='market_data_etl_v1' AIRFLOW_CTX_TASK_ID='validate_database_count' AIRFLOW_CTX_EXECUTION_DATE='2026-03-24T15:04:32.001729+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-24T15:04:32.001729+00:00'
+[2026-03-24T15:04:37.361+0000] {sql.py:276} INFO - Executing: SELECT COUNT(*) FROM coin_prices WHERE fetched_at > NOW() - INTERVAL '1 hour';
+[2026-03-24T15:04:37.373+0000] {base.py:83} INFO - Using connection ID 'my_postgres_conn' for task execution.
+[2026-03-24T15:04:37.386+0000] {base.py:83} INFO - Using connection ID 'my_postgres_conn' for task execution.
+[2026-03-24T15:04:37.393+0000] {sql.py:450} INFO - Running statement: SELECT COUNT(*) FROM coin_prices WHERE fetched_at > NOW() - INTERVAL '1 hour';, parameters: None
+[2026-03-24T15:04:37.396+0000] {sql.py:459} INFO - Rows affected: 1
+[2026-03-24T15:04:37.428+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=market_data_etl_v1, task_id=validate_database_count, execution_date=20260324T150432, start_date=20260324T150437, end_date=20260324T150437
+[2026-03-24T15:04:37.481+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-24T15:04:37.505+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

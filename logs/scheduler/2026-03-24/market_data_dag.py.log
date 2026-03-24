@@ -1,0 +1,644 @@
+[2026-03-24T01:42:36.104+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T01:42:36.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T01:42:36.116+0000] {logging_mixin.py:188} INFO - [2026-03-24T01:42:36.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T01:42:37.721+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T01:42:37.901+0000] {logging_mixin.py:188} INFO - [2026-03-24T01:42:37.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T01:42:38.049+0000] {logging_mixin.py:188} INFO - [2026-03-24T01:42:38.049+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 00:00:00+00:00, run_after=2026-03-24 01:00:00+00:00
+[2026-03-24T01:42:38.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 2.094 seconds
+[2026-03-24T14:34:12.027+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:12.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:34:12.043+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:12.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:12.174+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:12.249+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:12.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:34:12.322+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:12.321+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:34:12.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.387 seconds
+[2026-03-24T14:34:42.841+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:42.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:34:42.844+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:42.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:42.923+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:34:42.957+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:42.956+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:34:42.980+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:34:42.980+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:34:43.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.164 seconds
+[2026-03-24T14:35:13.298+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:13.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:35:13.302+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:13.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:13.361+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:13.410+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:13.409+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:35:13.435+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:13.435+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:35:13.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.170 seconds
+[2026-03-24T14:35:44.322+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:44.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:35:44.327+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:44.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:44.390+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:35:44.432+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:44.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:35:44.467+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:35:44.467+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:35:44.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.193 seconds
+[2026-03-24T14:36:14.742+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:14.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:36:14.747+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:14.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:14.795+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:14.835+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:14.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:36:14.856+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:14.856+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:36:14.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.143 seconds
+[2026-03-24T14:36:45.026+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:45.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:36:45.031+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:45.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:45.116+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:36:45.163+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:45.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:36:45.198+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:36:45.197+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:36:45.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.216 seconds
+[2026-03-24T14:37:16.081+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:16.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:37:16.089+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:16.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:16.227+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:16.277+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:16.276+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:37:16.313+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:16.313+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:37:16.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.274 seconds
+[2026-03-24T14:37:47.181+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:47.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:37:47.185+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:47.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:47.248+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:37:47.273+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:47.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:37:47.291+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:37:47.291+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:37:47.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.136 seconds
+[2026-03-24T14:38:18.129+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:18.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:38:18.132+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:18.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:18.202+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:18.227+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:18.227+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:38:18.246+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:18.246+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:38:18.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.148 seconds
+[2026-03-24T14:38:49.212+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:49.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:38:49.215+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:49.215+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:49.293+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:38:49.320+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:49.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:38:49.360+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:38:49.360+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:38:49.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.178 seconds
+[2026-03-24T14:39:20.397+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:20.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:39:20.402+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:20.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:20.494+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:20.527+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:20.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:39:20.548+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:20.548+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:39:20.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.181 seconds
+[2026-03-24T14:39:51.332+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:51.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:39:51.337+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:51.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:51.492+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:39:51.522+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:51.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:39:51.542+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:39:51.542+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:39:51.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.241 seconds
+[2026-03-24T14:40:22.523+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:22.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:40:22.528+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:22.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:22.596+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:22.637+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:22.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:40:22.663+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:22.662+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:40:22.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.170 seconds
+[2026-03-24T14:40:53.566+0000] {processor.py:161} INFO - Started process (PID=364) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:53.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:40:53.571+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:53.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:53.701+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:40:53.805+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:53.804+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:40:53.867+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:40:53.867+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:40:54.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.347 seconds
+[2026-03-24T14:41:26.302+0000] {processor.py:161} INFO - Started process (PID=369) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:26.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:41:26.304+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:26.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:26.377+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:26.412+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:26.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:41:26.434+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:26.434+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:41:26.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.156 seconds
+[2026-03-24T14:41:57.252+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:57.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:41:57.255+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:57.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:57.322+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:41:57.354+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:57.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:41:57.382+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:41:57.382+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:41:57.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.158 seconds
+[2026-03-24T14:42:28.355+0000] {processor.py:161} INFO - Started process (PID=379) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:28.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:42:28.358+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:28.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:28.428+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:28.466+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:28.465+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:42:28.496+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:28.495+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:42:28.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.170 seconds
+[2026-03-24T14:42:59.330+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:59.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:42:59.336+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:59.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:59.407+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:42:59.462+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:59.461+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:42:59.486+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:42:59.486+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:42:59.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.193 seconds
+[2026-03-24T14:43:30.081+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:43:30.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:43:30.086+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:43:30.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:43:30.175+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:43:30.208+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:43:30.208+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:43:30.238+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:43:30.238+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:43:30.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.195 seconds
+[2026-03-24T14:44:00.756+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:00.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:44:00.760+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:00.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:00.827+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:00.857+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:00.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:44:00.882+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:00.882+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:44:00.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.156 seconds
+[2026-03-24T14:44:31.513+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:31.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:44:31.516+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:31.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:31.568+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:44:31.598+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:31.597+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:44:31.623+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:44:31.622+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:44:31.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.140 seconds
+[2026-03-24T14:45:02.122+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:02.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:45:02.126+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:02.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:02.204+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:02.242+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:02.242+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:45:02.266+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:02.266+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:45:02.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.176 seconds
+[2026-03-24T14:45:32.745+0000] {processor.py:161} INFO - Started process (PID=409) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:32.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:45:32.748+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:32.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:32.809+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:45:32.861+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:32.860+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:45:32.893+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:45:32.893+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:45:32.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.177 seconds
+[2026-03-24T14:46:03.282+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:03.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:46:03.286+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:03.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:03.337+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:03.363+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:03.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:46:03.384+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:03.384+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:46:03.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.128 seconds
+[2026-03-24T14:46:33.894+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:33.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:46:33.898+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:33.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:33.977+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:46:34.004+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:34.004+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:46:34.025+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:46:34.025+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:46:34.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.161 seconds
+[2026-03-24T14:47:04.474+0000] {processor.py:161} INFO - Started process (PID=424) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:04.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:47:04.478+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:04.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:04.545+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:04.586+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:04.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:47:04.620+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:04.620+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:47:04.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.189 seconds
+[2026-03-24T14:47:34.935+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:34.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:47:34.938+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:34.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:35.008+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:47:35.052+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:35.052+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:47:35.075+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:47:35.075+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:47:35.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.173 seconds
+[2026-03-24T14:48:05.065+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:05.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:48:05.074+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:05.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:05.251+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:05.318+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:05.317+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:48:05.411+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:05.410+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:48:05.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.458 seconds
+[2026-03-24T14:48:35.836+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:35.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:48:35.840+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:35.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:35.896+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:48:36.082+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:36.082+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:48:36.103+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:48:36.103+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:48:36.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.295 seconds
+[2026-03-24T14:49:06.494+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:06.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:49:06.497+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:06.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:06.551+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:06.589+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:06.589+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:49:06.620+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:06.619+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:49:06.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.157 seconds
+[2026-03-24T14:49:36.847+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:36.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:49:36.857+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:36.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:36.980+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:49:37.018+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:37.018+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:49:37.044+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:49:37.043+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:49:37.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.232 seconds
+[2026-03-24T14:50:07.332+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:07.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:50:07.335+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:07.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:07.390+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:07.422+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:07.422+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:50:07.453+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:07.453+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:50:07.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.156 seconds
+[2026-03-24T14:50:37.908+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:37.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:50:37.915+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:37.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:38.087+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:50:38.121+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:38.120+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:50:38.144+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:50:38.144+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:50:38.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.268 seconds
+[2026-03-24T14:51:08.496+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:08.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:51:08.499+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:08.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:08.576+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:08.616+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:08.616+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:51:08.644+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:08.643+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:51:08.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.190 seconds
+[2026-03-24T14:51:38.905+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:38.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:51:38.909+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:38.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:39.016+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:51:39.048+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:39.048+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:51:39.072+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:51:39.071+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:51:39.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.198 seconds
+[2026-03-24T14:52:09.362+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:09.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:52:09.365+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:09.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:09.438+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:09.464+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:09.464+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:52:09.484+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:09.484+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:52:09.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.156 seconds
+[2026-03-24T14:52:39.776+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:39.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:52:39.781+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:39.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:39.865+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:52:39.907+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:39.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:52:39.941+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:52:39.941+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:52:39.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.203 seconds
+[2026-03-24T14:53:10.269+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:10.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:53:10.272+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:10.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:10.316+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:10.340+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:10.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:53:10.360+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:10.360+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:53:10.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.120 seconds
+[2026-03-24T14:53:40.627+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:40.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:53:40.631+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:40.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:40.703+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:53:40.730+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:40.729+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:53:40.754+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:53:40.753+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:53:40.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.158 seconds
+[2026-03-24T14:54:11.040+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:11.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:54:11.044+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:11.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:11.109+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:11.143+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:11.143+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:54:11.165+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:11.164+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:54:11.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.155 seconds
+[2026-03-24T14:54:41.468+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:41.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:54:41.473+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:41.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:41.566+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:54:41.599+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:41.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:54:41.621+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:54:41.621+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:54:41.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.186 seconds
+[2026-03-24T14:55:11.875+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:11.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:55:11.879+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:11.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:11.949+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:11.985+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:11.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:55:12.012+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:12.011+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:55:12.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.162 seconds
+[2026-03-24T14:55:42.320+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:42.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:55:42.325+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:42.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:42.413+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:55:42.445+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:42.445+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:55:42.476+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:55:42.476+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:55:42.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.195 seconds
+[2026-03-24T14:56:12.712+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:12.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:56:12.715+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:12.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:12.780+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:12.806+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:12.806+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:56:12.828+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:12.827+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:56:12.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.143 seconds
+[2026-03-24T14:56:43.206+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:43.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:56:43.210+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:43.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:43.275+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:56:43.302+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:43.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:56:43.329+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:56:43.329+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:56:43.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.151 seconds
+[2026-03-24T14:57:13.547+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:13.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:57:13.553+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:13.552+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:13.651+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:13.723+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:13.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:57:13.774+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:13.774+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:57:13.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.288 seconds
+[2026-03-24T14:57:44.028+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:44.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:57:44.032+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:44.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:44.109+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:57:44.137+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:44.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:57:44.158+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:57:44.158+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:57:44.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.161 seconds
+[2026-03-24T14:58:14.554+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:14.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:58:14.557+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:14.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:14.641+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:14.669+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:14.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:58:14.692+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:14.692+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:58:14.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.166 seconds
+[2026-03-24T14:58:44.875+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:44.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:58:44.878+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:44.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:44.939+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:58:44.969+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:44.968+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:58:44.990+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:58:44.990+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:58:45.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.145 seconds
+[2026-03-24T14:59:15.146+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:15.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:59:15.149+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:15.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:15.198+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:15.224+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:15.224+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:59:15.243+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:15.242+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 13:00:00+00:00, run_after=2026-03-24 14:00:00+00:00
+[2026-03-24T14:59:15.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.124 seconds
+[2026-03-24T14:59:45.489+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:45.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T14:59:45.493+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:45.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:45.558+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T14:59:45.587+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:45.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T14:59:45.608+0000] {logging_mixin.py:188} INFO - [2026-03-24T14:59:45.608+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 14:00:00+00:00, run_after=2026-03-24 15:00:00+00:00
+[2026-03-24T14:59:45.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.147 seconds
+[2026-03-24T15:00:15.929+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:15.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:00:15.933+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:15.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:15.993+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:16.021+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:16.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:00:16.042+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:16.041+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:00:16.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.141 seconds
+[2026-03-24T15:00:46.329+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:46.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:00:46.333+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:46.333+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:46.410+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:00:46.445+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:46.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:00:46.468+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:00:46.468+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:00:46.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.169 seconds
+[2026-03-24T15:01:16.825+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:16.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:01:16.831+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:16.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:16.900+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:16.935+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:16.935+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:01:16.964+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:16.964+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:01:16.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.169 seconds
+[2026-03-24T15:01:47.193+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:47.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:01:47.197+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:47.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:47.277+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:01:47.308+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:47.307+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:01:47.333+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:01:47.333+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:01:47.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.169 seconds
+[2026-03-24T15:02:17.725+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:17.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:02:17.729+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:17.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:17.812+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:17.839+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:17.839+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:02:17.862+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:17.862+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:02:17.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.162 seconds
+[2026-03-24T15:02:48.079+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:48.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:02:48.084+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:48.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:48.193+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:02:48.220+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:48.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:02:48.241+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:02:48.240+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:02:48.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.193 seconds
+[2026-03-24T15:03:18.694+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:18.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:03:18.699+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:18.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:18.794+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:18.824+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:18.824+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:03:18.866+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:18.865+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:03:18.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.210 seconds
+[2026-03-24T15:03:49.028+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:49.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:03:49.034+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:49.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:49.138+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:03:49.168+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:49.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:03:49.190+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:03:49.189+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:03:49.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.190 seconds
+[2026-03-24T15:04:19.571+0000] {processor.py:161} INFO - Started process (PID=369) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:19.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:04:19.578+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:19.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:19.705+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:19.790+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:19.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:04:19.855+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:19.855+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:04:19.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.319 seconds
+[2026-03-24T15:04:50.266+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:50.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:04:50.273+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:50.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:50.386+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:04:50.426+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:50.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:04:50.466+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:04:50.466+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:04:50.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.257 seconds
+[2026-03-24T15:05:20.886+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:20.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:05:20.891+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:20.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:20.974+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:21.002+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:21.002+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:05:21.020+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:21.020+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:05:21.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.163 seconds
+[2026-03-24T15:05:51.257+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:51.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:05:51.261+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:51.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:51.335+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:05:51.363+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:51.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:05:51.385+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:05:51.384+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:05:51.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.159 seconds
+[2026-03-24T15:06:21.770+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:21.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:06:21.776+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:21.775+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:21.851+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:21.894+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:21.894+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:06:21.928+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:21.928+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:06:21.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.200 seconds
+[2026-03-24T15:06:52.176+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:52.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:06:52.181+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:52.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:52.270+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:06:52.314+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:52.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:06:52.332+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:06:52.332+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:06:52.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.183 seconds
+[2026-03-24T15:07:22.751+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:22.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:07:22.756+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:22.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:22.843+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:22.873+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:22.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:07:22.898+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:22.898+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:07:22.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.178 seconds
+[2026-03-24T15:07:53.091+0000] {processor.py:161} INFO - Started process (PID=416) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:53.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:07:53.095+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:53.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:53.158+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:07:53.197+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:53.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:07:53.219+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:07:53.219+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:07:53.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.156 seconds
+[2026-03-24T15:08:23.676+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:23.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:08:23.680+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:23.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:23.786+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:23.826+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:23.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:08:23.858+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:23.858+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:08:23.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.213 seconds
+[2026-03-24T15:08:54.037+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:54.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:08:54.040+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:54.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:54.095+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:08:54.125+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:54.125+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:08:54.146+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:08:54.146+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:08:54.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.136 seconds
+[2026-03-24T15:09:24.321+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:24.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:09:24.327+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:24.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:24.403+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:24.442+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:24.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:09:24.464+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:24.464+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:09:24.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.170 seconds
+[2026-03-24T15:09:54.783+0000] {processor.py:161} INFO - Started process (PID=436) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:54.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:09:54.786+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:54.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:54.845+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:09:54.869+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:54.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:09:54.889+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:09:54.889+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:09:54.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.129 seconds
+[2026-03-24T15:10:25.149+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:25.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:10:25.161+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:25.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:25.254+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:25.275+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:25.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:10:25.294+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:25.293+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:10:25.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.164 seconds
+[2026-03-24T15:10:55.574+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:55.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:10:55.577+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:55.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:55.630+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:10:55.654+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:55.654+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:10:55.677+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:10:55.677+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:10:55.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.126 seconds
+[2026-03-24T15:11:26.006+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:26.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:11:26.008+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:26.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:26.063+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:26.088+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:26.088+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:11:26.108+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:26.108+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:11:26.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.123 seconds
+[2026-03-24T15:11:56.229+0000] {processor.py:161} INFO - Started process (PID=456) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:56.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:11:56.231+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:56.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:56.283+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:11:56.314+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:56.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:11:56.347+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:11:56.346+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:11:56.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.151 seconds
+[2026-03-24T15:12:26.708+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:26.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:12:26.710+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:26.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:26.750+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:26.777+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:26.776+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:12:26.798+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:26.798+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:12:26.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.114 seconds
+[2026-03-24T15:12:56.946+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:56.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:12:56.948+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:56.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:57.000+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:12:57.027+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:57.027+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:12:57.051+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:12:57.051+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:12:57.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.129 seconds
+[2026-03-24T15:13:27.411+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:27.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:13:27.414+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:27.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:27.480+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:27.505+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:27.504+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:13:27.526+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:27.526+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:13:27.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.137 seconds
+[2026-03-24T15:13:57.698+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:57.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:13:57.702+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:57.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:57.778+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:13:57.802+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:57.802+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:13:57.823+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:13:57.823+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:13:57.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.150 seconds
+[2026-03-24T15:14:28.085+0000] {processor.py:161} INFO - Started process (PID=481) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:28.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:14:28.088+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:28.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:28.159+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:28.186+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:28.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:14:28.204+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:28.203+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:14:28.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.143 seconds
+[2026-03-24T15:14:58.537+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:58.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:14:58.541+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:58.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:58.588+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:14:58.632+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:58.631+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:14:58.664+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:14:58.664+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:14:58.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.170 seconds
+[2026-03-24T15:15:29.008+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:15:29.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:15:29.013+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:15:29.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:15:29.083+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:15:29.118+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:15:29.117+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:15:29.139+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:15:29.139+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:15:29.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.161 seconds
+[2026-03-24T15:32:57.304+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:32:57.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:32:57.312+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:32:57.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:32:57.434+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:32:57.522+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:32:57.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:32:57.595+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:32:57.594+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:32:57.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.363 seconds
+[2026-03-24T15:33:28.040+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:28.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:33:28.045+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:28.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:28.127+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:28.160+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:28.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:33:28.184+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:28.184+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:33:28.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.175 seconds
+[2026-03-24T15:33:58.413+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:58.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:33:58.417+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:58.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:58.469+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:33:58.496+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:58.496+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:33:58.519+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:33:58.519+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:33:58.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.137 seconds
+[2026-03-24T15:34:29.006+0000] {processor.py:161} INFO - Started process (PID=513) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:29.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:34:29.012+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:29.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:29.082+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:29.110+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:29.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:34:29.133+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:29.133+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:34:29.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.160 seconds
+[2026-03-24T15:34:59.349+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:59.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:34:59.353+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:59.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:59.434+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:34:59.466+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:59.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:34:59.489+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:34:59.489+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:34:59.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.174 seconds
+[2026-03-24T15:35:29.906+0000] {processor.py:161} INFO - Started process (PID=523) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:35:29.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:35:29.909+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:35:29.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:35:29.962+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:35:29.994+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:35:29.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:35:30.021+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:35:30.021+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:35:30.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.143 seconds
+[2026-03-24T15:36:00.264+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:00.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:36:00.267+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:00.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:00.314+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:00.347+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:00.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:36:00.369+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:00.369+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:36:00.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.140 seconds
+[2026-03-24T15:36:30.803+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:30.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:36:30.806+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:30.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:30.873+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:36:30.910+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:30.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:36:30.936+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:36:30.936+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:36:30.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.171 seconds
+[2026-03-24T15:37:01.193+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:37:01.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/market_data_dag.py for tasks to queue
+[2026-03-24T15:37:01.200+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:37:01.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:37:01.285+0000] {processor.py:840} INFO - DAG(s) 'market_data_etl_v1' retrieved from /opt/airflow/dags/market_data_dag.py
+[2026-03-24T15:37:01.315+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:37:01.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-03-24T15:37:01.336+0000] {logging_mixin.py:188} INFO - [2026-03-24T15:37:01.336+0000] {dag.py:3823} INFO - Setting next_dagrun for market_data_etl_v1 to 2026-03-24 15:00:00+00:00, run_after=2026-03-24 16:00:00+00:00
+[2026-03-24T15:37:01.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/market_data_dag.py took 0.175 seconds

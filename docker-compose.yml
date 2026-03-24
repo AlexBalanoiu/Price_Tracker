@@ -1,0 +1,75 @@
+version: '3.8'
+
+
+x-airflow-common: &airflow-common
+  build: .                         
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__TEST_CONNECTION: 'Enabled'
+    # Your app's DB credentials (passed into fetch_and_store)
+    DB_HOST: postgres
+    DB_NAME: ${DB_NAME}
+    DB_USER: ${DB_USER}
+    DB_PASS: ${DB_PASS}
+  volumes:
+    - ./dags:/opt/airflow/dags       # dag folder 
+    - ./scripts:/opt/airflow/scripts # scripts 
+    - ./logs:/opt/airflow/logs       
+    - ./plugins:/opt/airflow/plugins
+  depends_on:
+    postgres:
+      condition: service_healthy    # check if postgress is good 
+
+services:
+
+  # tank 1: PostgreSQL
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow           
+    volumes:
+      - postgres_data:/var/lib/postgresql/data   # Data is kept through restarts
+      - ./scripts/sql_create_table:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    ports:
+      - "5432:5432"                  # acces port for postgress
+
+  # tank 2: Airflow 
+  airflow-init:
+    <<: *airflow-common
+    command: >
+      bash -c "airflow db init &&
+               airflow users create
+               --username admin
+               --password admin
+               --firstname Admin
+               --lastname User
+               --role Admin
+               --email admin@example.com"
+    restart: "no"
+
+  # tank 3: Airflow Webserver 
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"                  # local port
+    restart: always
+
+  #tank 4: Airflow Scheduler 
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: always
+
+volumes:
+  postgres_data:                     # Named volume so DB data persists
