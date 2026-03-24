@@ -4,7 +4,7 @@ A production-ready data pipeline that fetches live cryptocurrency prices from th
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 .
@@ -23,7 +23,7 @@ A production-ready data pipeline that fetches live cryptocurrency prices from th
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 The pipeline runs on an **hourly schedule** and consists of three tasks chained in sequence:
 
@@ -45,7 +45,7 @@ check_api_availability  ──►  run_etl_script  ──►  validate_database_
 - **PostgreSQL 15** — price data storage
 - **Python 3.8** — ETL scripting (`requests`, `psycopg2`)
 - **CoinGecko API** — free public crypto price feed
-- **Docker Compose** — local multi-container deployment
+- **Docker Desktop** — container deployment
 
 ---
 
@@ -53,7 +53,7 @@ check_api_availability  ──►  run_etl_script  ──►  validate_database_
 
 ### Prerequisites
 
-- [Docker](https://docs.docker.com/get-docker/) & Docker Compose installed
+- [Docker](https://docs.docker.com/get-docker/) & Docker Desktop installed
 - No API key required (CoinGecko free tier)
 
 ### 1. Clone the repository
@@ -151,4 +151,4 @@ apache-airflow-providers-http
 
 not done yet
 
-MIT
+
